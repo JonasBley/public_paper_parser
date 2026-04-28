@@ -7,7 +7,7 @@ Welcome to the **STEM & Physics Education Literature Archive**. This repository 
 This repository serves as the public-facing data archive for an automated pipeline. Every week, a private self-hosted runner executes a Python ingestion script that:
 1. **Scrapes** the latest preprints from arXiv (`physics.ed-ph`, `quant-ph`) and published articles from Crossref (covering top-tier journals like *American Journal of Physics*, *PRPER*, *Science Education*, etc.).
 2. **Filters & Categorizes** the literature using a local Large Language Model (Gemma 4) to evaluate the abstract against strict pedagogical criteria.
-3. **Ranks** the papers using dense vector embeddings (Cosine Similarity) against a predefined research profile focusing on Fidelity of Gestalt, functional thinking, and quantum optics.
+3. **Ranks** the papers using dense vector embeddings (Cosine Similarity) against a predefined research profile focusing on educational frameworks, mental models, novel educational techniques and modern quantum physics.
 4. **Pushes** the finalized database and readable digests to this public repository.
 
 *(Note: The scraping code, LLM inference engine, and API logic remain in a separate, private repository to ensure infrastructure security).*
