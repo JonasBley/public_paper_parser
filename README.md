@@ -2,6 +2,8 @@
 
 Welcome to the **STEM & Physics Education Literature Archive**. This repository is an automated, continuously updated collection of academic literature focusing on physics education, quantum curriculum innovation, and cognitive methodologies in STEM.
 
+The Database file can be found here: https://drive.google.com/file/d/1gKbJ1nGMpCJe5RWFl511RZixxfnbNdnN/view?usp=sharing
+
 ## ⚙️ How It Works
 
 This repository serves as the public-facing data archive for an automated pipeline. Every week, a private self-hosted runner executes a Python ingestion script that:
